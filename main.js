@@ -26,7 +26,7 @@ function startGame(){
     setting.start = true;
     gameArea.appendChild(car);
     requestAnimationFrame(playGame);
-}
+};
 
 function playGame(){
     console.log('Play game');
@@ -45,5 +45,5 @@ function stopRun (event){
     event.preventDefault();
     keys[event.key] = false;
     //document.addEventListener('keydown', startRun);
-}
+};
 
